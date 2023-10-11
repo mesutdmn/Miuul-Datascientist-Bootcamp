@@ -40,7 +40,6 @@ s = {"Python", "Machine Learning", "Data Science","Python"}
 
 type(s) #set
 
-s.__name__()
 
 ###############################################
 # GÖREV 2: Verilen string ifadenin tüm harflerini büyük harfe çeviriniz.
