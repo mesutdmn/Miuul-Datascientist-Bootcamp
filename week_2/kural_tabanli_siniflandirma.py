@@ -61,6 +61,8 @@ df.head()
 
 df.info()
 
+df.describe().T
+
 df.describe(include=[object]).T
 
 df.isnull().sum()
