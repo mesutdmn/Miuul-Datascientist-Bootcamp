@@ -69,7 +69,6 @@ df.isnull().sum()
 # Soru 2: Kaç unique SOURCE vardır? Frekansları nedir?
 
 df["SOURCE"].value_counts()
-df["SOURCE"].mode()
 
 # Soru 3: Kaç unique PRICE vardır?
 
