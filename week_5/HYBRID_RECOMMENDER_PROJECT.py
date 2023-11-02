@@ -27,11 +27,6 @@ rating = pd.read_csv("week_5/datasets/rating.csv")
 # Idlere ait film isimlerini ve türünü movie veri setinden ekliyoruz.
 
 df = pd.merge(movie,rating, how="inner", on="movieId")
-df.isnull().sum()
-
-vahit_hoca_df = movie.merge(rating, how="left", on="movieId")
-vahit_hoca_df.isnull().sum()
-vahit_hoca_df[vahit_hoca_df["userId"].isna()]
 
 # Adım 3: Herbir film için toplam kaç kişinin oy kullandığını hesaplayınız.Toplam oy kullanılma sayısı 1000'un altında olan filmleri veri setinden çıkarınız.
 # Herbir film için toplam kaç kişinin oy kullanıldığını hesaplıyoruz.
