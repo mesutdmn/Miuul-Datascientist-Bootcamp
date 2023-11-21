@@ -32,7 +32,7 @@ df = doc_to_data(pdf)
 from sklearn.metrics import roc_auc_score
 roc_auc_score(df["churn_with_threshold"],df["churn_proba"])
 def proba_rate(threshold,probas):
-    return [1 if proba > threshold else 0 for proba in probas]
+    return [1 if proba >= threshold else 0 for proba in probas]
 
 # - Eşik değerini 0.5 alarak confusion matrix oluşturunuz.
 
