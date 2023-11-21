@@ -35,8 +35,8 @@ def proba_rate(threshold,probas):
 
 # - Eşik değerini 0.5 alarak confusion matrix oluşturunuz.
 
-y_pred = proba_rate(0.5,df["churn_proba"])
-df["churn_with_threshold"] = y_pred
+df["churn_with_threshold"] = proba_rate(0.5,df["churn_proba"])
+
 def confision_matrix(real,predict):
     board = pd.DataFrame()
     TP = sum([1 for r,p in zip(real,predict) if (r == 1) & (p == 1)])
