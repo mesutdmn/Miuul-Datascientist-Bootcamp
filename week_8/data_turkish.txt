@@ -1,0 +1,528 @@
+Tablo özellikleri ve değerlerinin Türkçe açıklamaları:
+
+MSSubClass: Satışa dahil olan konut türünü tanımlar.
+
+20: 1-KATLI 1946 ve SONRASI TÜM TARZLAR
+30: 1-KATLI 1945 ve ÖNCESİ
+40: 1-KATLI, DİKİŞ ATÖLYESİ İLE TÜM YAŞLAR
+45: 1.5-KATLI - BİTMEMİŞ TÜM YAŞLAR
+50: 1.5-KATLI TAMAMLANMIŞ TÜM YAŞLAR
+60: 2-KATLI 1946 ve SONRASI
+70: 2-KATLI 1945 ve ÖNCESİ
+75: 2.5-KATLI TÜM YAŞLAR
+80: BÖLÜNME VEYA ÇOK KATLI
+85: BÖLÜNME FOYER
+90: DUBLEKS - TÜM TARZLAR VE YAŞLAR
+120: 1-KATLI PUD (Planlanmış Ünite Geliştirmesi) - 1946 ve SONRASI
+150: 1.5-KATLI PUD - TÜM YAŞLAR
+160: 2-KATLI PUD - 1946 ve SONRASI
+180: PUD - ÇOK KATLI - SPLİT LEV/DİYARDAHİL
+190: 2 AİLE DÖNÜŞÜMÜ - TÜM TARZLAR VE YAŞLAR
+
+MSZoning: Satışın genel zonlama sınıflandırmasını tanımlar.
+
+A: Tarım
+C: Ticari
+FV: Yüzen Köy Konutu
+I: Endüstriyel
+RH: Yüksek Yoğunluklu Konut
+RL: Düşük Yoğunluklu Konut
+RP: Düşük Yoğunluklu Park
+RM: Orta Yoğunluklu Konut
+
+LotFrontage: Mülke bağlı sokak uzunluğu (linear feet)
+
+LotArea: Arsa büyüklüğü (square feet)
+
+Street: Mülke yol erişim tipi
+
+Grvl: Çakıl
+Pave: Kaplama
+
+Alley: Mülke ara yol erişim tipi
+
+Grvl: Çakıl
+Pave: Kaplama
+NA: Ara yol erişimi yok
+
+LotShape: Mülkün genel şekli
+
+Reg: Düzenli
+IR1: Hafif düzensiz
+IR2: Orta düzensiz
+IR3: Düzensiz
+
+LandContour: Arsanın düzlüğü
+
+Lvl: Yaklaşık Düz/Seviye
+Bnk: Bankeli - Cadde seviyesinden binaya hızlı ve belirgin yükselme
+HLS: Yamaç - Yandan yana önemli eğim
+Low: Çöküntü
+
+Utilities: Kullanılabilir hizmet türü
+
+AllPub: Tüm genel Hizmetler (E, G, S ve W)
+NoSewr: Elektrik, Gaz ve Su (Septik Tank)
+NoSeWa: Sadece Elektrik ve Gaz
+ELO: Sadece Elektrik
+
+LotConfig: Arsa konfigürasyonu
+
+Inside: İç kısım
+Corner: Köşe konumu
+CulDSac: Çıkmaz sokak
+FR2: Arsanın iki tarafında da cepheli
+FR3: Arsanın üç tarafında da cepheli
+
+LandSlope: Mülkün eğimi
+
+Gtl: Hafif eğimli
+Mod: Orta eğimli
+Sev: Şiddetli eğimli
+
+Neighborhood: Ames şehir sınırları içindeki fiziksel konumlar
+
+Blmngtn: Bloomington Heights
+Blueste: Bluestem
+BrDale: Briardale
+BrkSide: Brookside
+ClearCr: Clear Creek
+CollgCr: College Creek
+Crawfor: Crawford
+Edwards: Edwards
+Gilbert: Gilbert
+IDOTRR: Iowa DOT ve Demiryolu
+MeadowV: Meadow Village
+Mitchel: Mitchell
+Names: North Ames
+NoRidge: Northridge
+NPkVill: Northpark Villa
+NridgHt: Northridge Heights
+NWAmes: Northwest Ames
+OldTown: Old Town
+SWISU: Iowa Devlet Üniversitesi'nin Güney
+
+i ve Batısı
+Sawyer: Sawyer
+SawyerW: Sawyer West
+Somerst: Somerset
+StoneBr: Stone Brook
+Timber: Timberland
+Veenker: Veenker
+
+Condition1: Çeşitli koşullara yakınlık
+
+Artery: Ana yol ile bitişik
+Feedr: Besleyici yol ile bitişik
+Norm: Normal
+RRNn: Kuzey-Güney Demiryolu'na 200 fit içinde
+RRAn: Kuzey-Güney Demiryolu'na bitişik
+PosN: Pozitif dış özelliklere yakın - park, yeşil alan vb.
+PosA: Pozitif dış özelliklere bitişik
+RRNe: Doğu-Batı Demiryolu'na 200 fit içinde
+RRAe: Doğu-Batı Demiryolu'na bitişik
+
+Condition2: Çeşitli koşullara yakınlık (birden fazla varsa)
+
+Artery: Ana yol ile bitişik
+Feedr: Besleyici yol ile bitişik
+Norm: Normal
+RRNn: Kuzey-Güney Demiryolu'na 200 fit içinde
+RRAn: Kuzey-Güney Demiryolu'na bitişik
+PosN: Pozitif dış özelliklere yakın - park, yeşil alan vb.
+PosA: Pozitif dış özelliklere bitişik
+RRNe: Doğu-Batı Demiryolu'na 200 fit içinde
+RRAe: Doğu-Batı Demiryolu'na bitişik
+
+BldgType: Konut tipi
+
+1Fam: Tek aileli bağımsız ev
+2FmCon: İki aileli Dönüşüm; ilk başta tek aileli ev olarak inşa edildi
+Duplx: Dubleks
+TwnhsE: Şehir içi köşe birimi
+TwnhsI: Şehir içi iç birimi
+
+HouseStyle: Konut stili
+
+1Story: Tek katlı
+1.5Fin: Bir buçuk katlı: 2. kat tamamlanmış
+1.5Unf: Bir buçuk katlı: 2. kat tamamlanmamış
+2Story: İki katlı
+2.5Fin: İki buçuk katlı: 2. kat tamamlanmış
+2.5Unf: İki buçuk katlı: 2. kat tamamlanmamış
+SFoyer: Bölme Foyer
+SLvl: Bölme Seviye
+
+OverallQual: Ev malzemesi ve bitişinin genel değerlendirmesi
+
+10: Çok Mükemmel
+9: Mükemmel
+8: Çok İyi
+7: İyi
+6: Ortalama Üstü
+5: Ortalama
+4: Ortalama Altı
+3: Adil
+2: Zayıf
+1: Çok Zayıf
+
+OverallCond: Ev durumunun genel değerlendirmesi
+
+10: Çok Mükemmel
+9: Mükemmel
+8: Çok İyi
+7: İyi
+6: Ortalama Üstü
+5: Ortalama
+4: Ortalama Altı
+3: Adil
+2: Zayıf
+1: Çok Zayıf
+
+YearBuilt: Orijinal inşaat tarihi
+
+YearRemodAdd: Yeniden modelleme tarihi (eğer yeniden modelleme veya eklemeler yoksa inşaat tarihi ile aynı)
+
+RoofStyle: Çatı tipi
+
+Flat: Düz
+Gable: Çatı pencesi
+Gambrel: Gambrel (Ahır)
+Hip: Ters Çatı
+Mansard: Mansard
+Shed: Depo
+
+RoofMatl: Çatı malzemesi
+
+ClyTile: Kil veya Çini
+CompShg: Standart (Kompozit) Kiremit
+Membran: Membran
+Metal: Metal
+Roll: Rulo
+Tar&Grv: Çakıl ve Katran
+WdShake: Ahşap Sarsıntıları
+WdShngl: Ahşap Shingles
+
+Exterior1st: Ev kaplaması
+
+AsbShng: Asbest Shingles
+AsphShn: Asfalt Shingles
+BrkComm: Tuğla Ortak
+BrkFace: Tuğla Yüzeyi
+CBlock: Beton Blok
+CemntBd: Çimento Levhası
+HdBoard: Sert Levha
+ImStucc: İmitasyon Sıva
+MetalSd: Metal Kaplama
+Other: Diğer
+Plywood: Kontraplak
+PreCast: Önceden Dökülmüş
+Stone: Taş
+Stucco: Stucco
+VinylSd: Vinil Kaplama
+Wd Sdng: Ahşap Kaplama
+WdShing: Ahşap Shingles
+
+Exterior2nd: Ev kaplaması (eğer birden fazla malzeme içeriyorsa)
+
+AsbShng: Asbest Shingle
+AsphShn: Asfalt Shingle
+BrkComm: Ortak Tuğla
+BrkFace: Tuğla Yüz
+CBlock: Beton Blok
+CemntBd: Çimento Levha
+HdBoard: Sert Levha
+ImStucc: Taklit Stucco
+MetalSd: Metal Kaplama
+Other: Diğer
+Plywood: Kontraplak
+PreCast: PreCast
+Stone: Taş
+Stucco: Stucco
+VinylSd: Vinil Kaplama
+Wd Sdng: Ahşap Kaplama
+WdShing: Ahşap Shingle
+
+MasVnrType: Duvar kaplama tipi
+
+BrkCmn: Ortak Tuğla
+BrkFace: Tuğla Yüz
+CBlock: Beton Blok
+None: Yok
+Stone: Taş
+
+MasVnrArea: Duvar kaplama alanı (kare feet cinsinden)
+
+ExterQual: Dış malzemenin kalitesini değerlendirir
+
+Ex: Mükemmel
+Gd: İyi
+TA: Ortalama/Tipik
+Fa: Zayıf
+Po: Kötü
+
+ExterCond: Dış malzemenin mevcut durumunu değerlendirir
+
+Ex: Mükemmel
+Gd: İyi
+TA: Ortalama/Tipik
+Fa: Zayıf
+Po: Kötü
+
+Foundation: Temel tipi
+
+BrkTil: Tuğla ve Karo
+CBlock: Beton Blok
+PConc: Dökme Beton
+Slab: Kare
+Stone: Taş
+Wood: Ahşap
+
+BsmtQual: Bodrum yüksekliğini değerlendirir
+
+Ex: Mükemmel (100+ inç)
+Gd: İyi (90-99 inç)
+TA: Tipik (80-89 inç)
+Fa: Orta (70-79 inç)
+Po: Zayıf (<70 inç)
+NA: Yok
+
+BsmtCond: Bodrumun genel durumunu değerlendirir
+
+Ex: Mükemmel
+Gd: İyi
+TA: Tipik - hafif nem izin verilir
+Fa: Orta - nem veya bazı çatlaklar veya çökme
+Po: Zayıf - Ciddi çatlama, çökme veya ıslaklık
+NA: Yok
+
+BsmtExposure: Yürüme veya bahçe seviyesi duvarlarını belirtir
+
+Gd: İyi Gösterge
+Av: Ortalama Gösterge (genellikle split seviyeler veya giriş holü tipik olarak ortalama veya üzeri puan alır)
+Mn: Minimum Gösterge
+No: Gösterge Yok
+NA: Yok
+
+BsmtFinType1: Bodrumun bitmiş alanının derecesi
+
+GLQ: İyi Yaşam Alanı
+ALQ: Ortalama Yaşam Alanı
+BLQ: Ortalamanın Altında Yaşam Alanı
+Rec: Ortalama Rekreasyon Alanı
+LwQ: Düşük Kalite
+Unf: Bitmemiş
+NA: Yok
+
+BsmtFinSF1: Tip 1 bitmiş alanın kare feet cinsinden büyüklüğü
+
+BsmtFinType2: Bodrumun bitmiş alanının derecesi (birden fazla tip varsa)
+
+GLQ: İyi Yaşam Alanı
+ALQ: Ortalama Yaşam Alanı
+BLQ: Ortalamanın Altında Yaşam Alanı
+Rec: Ortalama Rekreasyon Alanı
+LwQ: Düşük Kalite
+Unf: Bitmemiş
+NA: Yok
+
+BsmtFinSF2: Tip 2 bitmiş alanın kare feet cinsinden büyüklüğü
+
+BsmtUnfSF: Bitmemiş bodrum alanının kare feet cinsinden büyüklüğü
+
+TotalBsmtSF: Toplam bodrum alanının kare feet cinsinden büyüklüğü
+
+Heating: Isıtma türü
+
+Floor: Zemin Fırını
+GasA: Gaz zorla sıcak hava fırını
+GasW: Gaz sıcak su veya buhar ısıtma
+Grav: Yerçekimi fırını
+OthW: Gaz dışındaki sıcak su veya buhar ısıtma
+Wall: Duvar fırını
+
+HeatingQC: Isıtma kalitesi ve durumu
+
+Ex: Mükemmel
+Gd: İyi
+TA: Ortalama/Tipik
+Fa: Zayıf
+Po: Kötü
+
+CentralAir: Merkezi klima
+
+N: Hayır
+Y: Evet
+
+Electrical: Elektrik sistemi
+
+SBrkr: Standart Devre Kesici ve Romex
+FuseA: 60 AMP üzeri Sigorta Kutusu ve tüm Romex kabloları (Ortalama)
+FuseF: 60 AMP Sigorta Kutusu ve çoğunlukla Romex kabloları (Zayıf)
+FuseP: 60 AMP Sigorta Kutusu ve çoğunlukla knob & tube kabloları (Kötü)
+Mix: Karışık
+
+1stFlrSF: Birinci Katın kare feet cinsinden büyüklüğü
+2ndFlrSF: İkinci katın kare feet cinsinden büyüklüğü
+
+LowQualFinSF: Düşük kaliteli bitmiş kare feet (tüm katlar)
+
+GrLivArea: Zemin üstü yaşam alanı kare feet cinsinden
+
+BsmtFullBath: Bodrum tam banyoları
+
+BsmtHalfBath: Bodrum yarı banyoları
+
+FullBath: Zemin üstü tam banyolar
+
+HalfBath: Zemin üstü yarı banyolar
+
+Bedroom: Zemin üstü yatak odaları (bodrum yatak odalarını İÇERMEZ)
+
+Kitchen: Zemin üstü mutfaklar
+
+KitchenQual: Mutfak kalitesi
+
+Ex: Mükemmel
+Gd: İyi
+TA: Tipik/Ortalama
+Fa: Zayıf
+Po: Kötü
+
+TotRmsAbvGrd: Zemin üstü toplam oda sayısı (banyoları içermez)
+
+Functional: Ev işlevselliği (Tipik olduğunu varsayalım, düzeltmeler g
+
+erekliyse)
+
+Typ: Tipik İşlevsellik
+Min1: Küçük Düşüşler 1
+Min2: Küçük Düşüşler 2
+Mod: Orta Düşüşler
+Maj1: Büyük Düşüşler 1
+Maj2: Büyük Düşüşler 2
+Sev: Ağır Hasar
+Sal: Sadece Kurtarma
+
+Fireplaces: Şömine sayısı
+
+FireplaceQu: Şömine kalitesi
+
+Ex: Mükemmel - Olağanüstü Tuğla Şömine
+Gd: İyi - Ana seviyedeki Tuğla Şömine
+TA: Ortalama - Ana yaşam alanındaki prefabrik şömine veya bodrumdaki Tuğla Şömine
+Fa: Zayıf - Bodrumdaki prefabrik şömine
+Po: Kötü - Ben Franklin Sobası
+NA: Şömine Yok
+
+GarageType: Garaj konumu
+
+2Types: Birden fazla garaj tipi
+Attchd: Evle bağlantılı
+Basment: Bodrum Garajı
+BuiltIn: İçine Yapılmış (Evle ilgili Garaj - genellikle garajın üzerinde oda bulunur)
+CarPort: Çatılı Garaj
+Detchd: Evden Bağımsız
+NA: Garaj Yok
+
+GarageYrBlt: Garajın inşa edildiği yıl
+
+GarageFinish: Garajın iç yüzeyi
+
+Fin: Bitmiş
+RFn: Kabaca Bitmiş
+Unf: Bitmemiş
+NA: Garaj Yok
+
+GarageCars: Garajın araba kapasitesi
+
+GarageArea: Garajın alanı (kare feet cinsinden)
+
+GarageQual: Garaj kalitesi
+
+Ex: Mükemmel
+Gd: İyi
+TA: Tipik/Ortalama
+Fa: Zayıf
+Po: Kötü
+NA: Garaj Yok
+
+GarageCond: Garaj durumu
+
+Ex: Mükemmel
+Gd: İyi
+TA: Tipik/Ortalama
+Fa: Zayıf
+Po: Kötü
+NA: Garaj Yok
+
+PavedDrive: Döşenmiş otopark
+
+Y: Döşeli
+P: Kısmen Kaplamalı
+N: Toprak/Çakıl
+
+WoodDeckSF: Kare feet cinsinden ahşap güverte alanı
+
+OpenPorchSF: Kare feet cinsinden açık sundurma alanı
+
+EnclosedPorch: Kare feet cinsinden kapalı sundurma alanı
+
+3SsnPorch: Kare feet cinsinden üç mevsim sundurma alanı
+
+ScreenPorch: Kare feet cinsinden ekranlı sundurma alanı
+
+PoolArea: Kare feet cinsinden havuz alanı
+
+PoolQC: Havuz kalitesi
+
+Ex: Mükemmel
+Gd: İyi
+TA: Tipik/Ortalama
+Fa: Zayıf
+NA: Havuz Yok
+
+Fence: Çit kalitesi
+
+GdPrv: İyi Gizlilik
+MnPrv: Minimum Gizlilik
+GdWo: İyi Ahşap
+MnWw: Minimum Ahşap/Tel
+NA: Çit Yok
+
+MiscFeature: Diğer kategorilerde bulunmayan çeşitli özellikler
+
+Elev: Asansör
+Gar2: 2. Garaj (garaj bölümünde tanımlanmamışsa)
+Othr: Diğer
+Shed: Ahşap Yapı (100 SF üzeri)
+TenC: Tenis Kortu
+NA: Yok
+
+MiscVal: Çeşitli özelliğin değeri (Dolar cinsinden)
+
+MoSold: Satıldığı Ay (AA)
+
+YrSold: Satıldığı Yıl (YYYY)
+
+SaleType: Satış türü
+
+WD: Garanti Senedi - Geleneksel
+CWD: Garanti Senedi - Nakit
+VWD: Garanti Senedi - VA Kredisi
+New: Yeni İnşa Edilmiş ve Satılmış Ev
+COD: Mahkeme Memuru Senedi/Miras
+Con: Sözleşmeli -% 15 Peşinat düzenli vadelerle
+ConLw: Sözleşmeli Düşük Peşinat ve Düşük Faiz
+ConLI: Sözleşmeli Düşük Faiz
+ConLD: Sözleşmeli Düşük Peşinat
+Oth: Diğer
+
+SaleCondition: Satış Durumu
+
+Normal: Normal Satış
+Abnorml: Anormal Satış - Takas, İcra, Kısa Satış
+AdjLand: Bitişik Arazi Satışı
+Alloca: Tahsis - İki ayrı tapu ile ilişkilendirilmiş iki bağlı mülk, genellikle bir garaj birimi olan konut
+Family: Aile Üyeleri Arasında Satış
+Partial: Son değerlendirildiğinde ev tamamlanmamıştı (Yeni Evlerle İlişkilendirilmiştir)
