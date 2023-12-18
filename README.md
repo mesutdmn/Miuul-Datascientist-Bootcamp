@@ -35,10 +35,6 @@ Bu repo, Data Science bootcamp sürecindeki haftalık aktiviteleri ve öğrenile
 
 Bu repo, her haftanın genel konularını kapsayan bir dizi öğrenme materyali içermektedir. Her hafta, ilgili konuların daha derinlemesine incelendiği kendi klasörüne sahiptir. İlgili hafta klasörlerine giderek detaylı içeriklere ulaşabilirsiniz.
 
-## Ekler
-
-Herhangi bir ek bilgi buraya gelir
-
   
 ## Miuul Bootcamp
 
